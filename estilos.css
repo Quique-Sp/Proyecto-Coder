@@ -1,0 +1,126 @@
+body {
+background-image: url(https://wallpapercave.com/wp/GjrkLhP.jpg);    
+background-size: cover;
+}
+
+.banner {
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+u {
+    color: chartreuse;
+}
+p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.miNav li {
+    display: inline-block;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.miNav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 90rem;
+    font-family: 'Bebas Neue', cursive;
+    background-color:grey;
+}
+
+.miNav {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    justify-content: center;
+}
+
+.miFooter {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.miFooter a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.skillsAprendidos {
+    display: grid;
+    grid-template-areas:
+        "skills proximosSkills"
+        "aprendidos proximos";
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.skills {
+    grid-area: skills;
+    background-color: rgb(17, 32, 49);
+    color: white;
+    border-radius: 90rem;
+    text-align: center;
+    font-size: 150%;
+}
+
+.proximosSkills {
+    grid-area: proximosSkills;
+    background-color: rgb(17, 32, 49);
+    color: white;
+    border-radius: 90rem;
+    text-align: center;
+    font-size: 150%;
+}
+
+.aprendidos {
+    grid-area: aprendidos;
+    background-color: transparent;
+    color: white;
+    border-radius: 90rem;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.proximos {
+    grid-area: proximos;
+    background-color: transparent;
+    border-radius: 90rem;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.formularioContacto {
+    display: inline-block;
+    margin: 2rem;
+    margin-right: 5rem;
+    color: white;
+    font-size: 1.5rem;
+}
