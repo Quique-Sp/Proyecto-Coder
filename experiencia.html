@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,21 +11,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="miNav">
-        <nav>
-            <ul class="animate__animated animate__rotateIn">
-                <li><a href="index.html"><button type="button" class="btn btn-primary">Inicio</button></a></li>
-                <li><a href="cursosyCapacitaciones.html"><button type="button" class="btn btn-primary">Cursos y Capacitaciones</button></a></li>
-                <li><a href="proyectos.html"><button type="button" class="btn btn-primary">Proyectos</button></a></li>
-                <li><a href="experiencia.html"><button type="button"class="btn btn-primary">Experiencia</button></a></li>
-                <li><a href="contacto.html"><button type="button" class="btn btn-primary">Contacto</button></a></li>
-            </ul>
+    <div class="banner__miNav">
+        <nav class="navbar navbar-expand-lg navbar-light miNav">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse burger" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="logo" href="index.html">Inicio</a>
+                        <a class="logo" href="cursosyCapacitaciones.html">Cursos y Capacitaciones</a>
+                        <a class="logo" href="proyectos.html">Proyectos</a>
+                        <a class="logo" href="experiencia.html">Experiencia</a>
+                        <a class="logo" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </div>
     <div class="card" style="width: 18rem;">
         <img src="imagenes/WhatsApp Image 2021-10-18 at 13.33.49.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card__body">
             <h5 class="card-title">Enrique Spinnato</h5>
             <p class="card-text">Cuento con más de ocho años de experiencia en ventas, administración general de
                 negocios y emprendimientos particulares. En búsqueda de perfeccionar esta pasión y darle más valor a
@@ -32,5 +43,11 @@
                 Marketing Digital y actualmente Desarrollo Front End para buscar nuevos desafíos.</p>
         </div>
     </div>
+    <div class="ubicacion">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.02542106692!2d-57.988189830851866!3d-34.92052327676543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1636774712641!5m2!1ses-419!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
 </body>
+
 </html>

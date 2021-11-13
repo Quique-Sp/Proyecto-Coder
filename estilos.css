@@ -38,7 +38,7 @@ p {
     font-size: 1.5rem;
 }
 
-.miNav {
+.banner__miNav {
     display: flex;
     padding: 10px;
     flex-direction: row;
@@ -122,7 +122,8 @@ p {
 }
 
 .card {
-    display: inline-block;
+margin: 5rem;
+
 }
 .formTamaño {
     width: 50%;
@@ -142,11 +143,16 @@ p {
     font-size: 2rem;
 }
 
-.cardSkills {
+.misSkills__card {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .misSkills {
     margin-bottom: 2rem;
+}
+
+.ubicacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
