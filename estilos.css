@@ -173,4 +173,6 @@ margin: 5rem;
                           "main main"
                           "footer footer "
     ;
-} 
+}
+
+@media(min-width: 768px;){}
