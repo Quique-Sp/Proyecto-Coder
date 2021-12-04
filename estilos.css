@@ -156,3 +156,21 @@ margin: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.cursos__realizados {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ecomm__manager {
+    float: right;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: repeat(6, 100px);
+    grid-gap: 1rem;
+    grid-template-areas: "header header"
+                          "main main"
+                          "footer footer "
+    ;
+} 
